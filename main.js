@@ -1,8 +1,7 @@
-/** 
+
 function Random() {
-    var rnd = Math.floor(Math.random() * 1000000000);
+    var rnd = Math.floor(Math.random() * 6);
     document.getElementById('codeButton').value = rnd;
+    alert(rnd);
 }
-**/
-var rnd = 0;
-alert(rnd);
+
